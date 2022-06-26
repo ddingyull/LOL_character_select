@@ -1,0 +1,224 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 900px;
+  height: 50px;
+  color: #959181;
+  background-color: #333;
+  border-bottom: .5px solid #E1BE79;
+}
+.inner {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.fornt {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F9F9F9;
+  min-width: 160px;
+  padding: 8px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+button {
+  color: #959181;
+  background-color: transparent;
+  border: 1px solid #959181;
+  outline: none;
+  margin: 0 10px;
+}
+input {
+  background-color: transparent;
+  border: 1px solid #959181;
+  outline: none;
+  font-family: FontAwesome;
+}
+.container {
+  max-width: 900px;
+  height: 900px;
+  background-color: #333;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid #333;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  margin: 10px 20px;
+  border: 1px ridge grey;
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.item:hover {
+  /* filter: grayscale(1); */
+  border: 1px solid #E1BE79;
+}
+
+.group>.content {
+  color: #959181;
+  text-align: center;
+}
+
+.group:nth-child(1)>.item {
+  background-image: url(./champions/무작위.png);
+}
+
+.group:nth-child(2)>.item {
+  background-image: url(./champions/가렌.webp);
+}
+
+.group:nth-child(3)>.item {
+  background-image: url(./champions/갈리오.webp);
+}
+
+.group:nth-child(4)>.item {
+  background-image: url(./champions/갱플랭크.webp);
+}
+
+.group:nth-child(5)>.item {
+  background-image: url(./champions/그라가스.webp);
+}
+
+.group:nth-child(6)>.item {
+  background-image: url(./champions/그레이브즈.webp);
+}
+
+.group:nth-child(7)>.item {
+  background-image: url(./champions/그웬.webp);
+}
+
+.group:nth-child(8)>.item {
+  background-image: url(./champions/나르.webp);
+}
+
+.group:nth-child(9)>.item {
+  background-image: url(./champions/나미.webp);
+}
+
+.group:nth-child(10)>.item {
+  background-image: url(./champions/나서스.webp);
+}
+
+.group:nth-child(11)>.item {
+  background-image: url(./champions/노틸러스.webp);
+}
+
+.group:nth-child(12)>.item {
+  background-image: url(./champions/녹턴.png);
+}
+
+.group:nth-child(13)>.item {
+  background-image: url(./champions/누누와\ 윌럼프.webp);
+}
+
+.group:nth-child(14)>.item {
+  background-image: url(./champions/니달리.webp);
+}
+
+.group:nth-child(15)>.item {
+  background-image: url(./champions/니코.webp);
+}
+
+.group:nth-child(16)>.item {
+  background-image: url(./champions/다리우스.webp);
+}
+
+.group:nth-child(17)>.item {
+  background-image: url(./champions/다이애나.webp);
+}
+
+.group:nth-child(18)>.item {
+  background-image: url(./champions/드레이븐.png);
+}
+
+.group:nth-child(19)>.item {
+  background-image: url(./champions/라이즈.webp);
+}
+
+.group:nth-child(20)>.item {
+  background-image: url(./champions/라칸.webp);
+}
+
+.group:nth-child(21)>.item {
+  background-image: url(./champions/람머스.webp);
+}
+
+.group:nth-child(22)>.item {
+  background-image: url(./champions/럭스.webp);
+}
+
+.group:nth-child(23)>.item {
+  background-image: url(./champions/럼블.webp);
+}
+
+.group:nth-child(24)>.item {
+  background-image: url(./champions/레나타\ 글라스크.webp);
+}
+
+.group:nth-child(25)>.item {
+  background-image: url(./champions/레넥톤.webp);
+}
+
+.group:nth-child(26)>.item {
+  background-image: url(./champions/레오나.webp);
+}
+
+.group:nth-child(27)>.item {
+  background-image: url(./champions/렉사이.webp);
+}
+
+.group:nth-child(28)>.item {
+  background-image: url(./champions/렐.png);
+}
+
+.group:nth-child(29)>.item {
+  background-image: url(./champions/렝가.webp);
+}
+
+.group:nth-child(30)>.item {
+  background-image: url(./champions/루시안.png);
+}
